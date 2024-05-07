@@ -1,0 +1,66 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F677 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"7 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"15
+[v _ISR ISR `II(v  1 e 1 0 ]
+"7 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\Modules/adc.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"1 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\Modules/extInt.c
+[v _externalInterrup_Init externalInterrup_Init `(v  1 e 1 0 ]
+"7 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\Modules/sys.c
+[v _System_init System_init `(v  1 e 1 0 ]
+"636 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f677.h
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"643
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"808
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1889
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"1896
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2675
+[v _GO_DONE GO_DONE `VEb  1 e 0 @249 ]
+"7 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"12
+} 0
+"7 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\Modules/sys.c
+[v _System_init System_init `(v  1 e 1 0 ]
+{
+"12
+} 0
+"1 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\Modules/extInt.c
+[v _externalInterrup_Init externalInterrup_Init `(v  1 e 1 0 ]
+{
+"3
+} 0
+"7 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\Modules/adc.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"11
+} 0
+"15 C:\Users\teste06\Documents\Projetos PIC\Atlas\moduloControleFonte.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"17
+} 0

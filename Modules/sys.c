@@ -7,5 +7,6 @@
 void System_init() {
     
     ADC_Init();
+    externalInterrup_Init();
     
 }

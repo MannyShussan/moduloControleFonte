@@ -7,6 +7,8 @@
       <logicalFolder name="Modules" displayName="Modules" projectFiles="true">
         <itemPath>Modules/adc.h</itemPath>
         <itemPath>Modules/sys.h</itemPath>
+        <itemPath>Modules/extInt.h</itemPath>
+        <itemPath>Modules/iic.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -24,6 +26,8 @@
       <logicalFolder name="Modules" displayName="Modules" projectFiles="true">
         <itemPath>Modules/adc.c</itemPath>
         <itemPath>Modules/sys.c</itemPath>
+        <itemPath>Modules/extInt.c</itemPath>
+        <itemPath>Modules/iic.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -41,7 +45,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>noID</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.46</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>

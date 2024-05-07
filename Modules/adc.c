@@ -17,7 +17,6 @@ unsigned int ADC(unsigned int ch) {
     ADCON0 |= channel;
     GO_DONE = 1;
     while (GO_DONE);
-    result = (unsigned int) ((ADRESH << 8) | ADRESL);
-    return result;
+    return (unsigned int) ((ADRESH << 8) | ADRESL);
 }
 

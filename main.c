@@ -1,7 +1,8 @@
 #include "Modules/sys.h"
-#include <stdio.h>
 
 double calcularTensao(medicao *m);
+
+medicao tensao;
 
 void main(void) {
     System_init();
@@ -10,7 +11,12 @@ void main(void) {
     }
 }
 
-double calcularTensao(medicao *m) {
+
+void __interrupt() ISR(void){
+    
+}
+
+double calculaTensao(medicao *m) {
     double coeficiente = (double) m->R2Tensao / ((double) (m->R1Tensao + m->R2Tensao));
     double tensaoMedida = m->adcTensao * 0.0048828125;
     return (double) (tensaoMedida / coeficiente);

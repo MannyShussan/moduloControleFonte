@@ -1,0 +1,3 @@
+void externalInterrup_Init() {
+    
+}

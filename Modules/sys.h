@@ -7,7 +7,12 @@
 
 #include <pic16f677.h>
 #include "adc.h"
+#include "extInt.h"
+#include "iic.h"
+
 #endif
+
+#define _XTAL_FREQ 8000000
 
 // CONFIG
 #pragma config FOSC = INTRCIO   // Oscillator Selection bits (INTOSCIO oscillator: I/O function on RA4/OSC2/CLKOUT pin, I/O function on RA5/OSC1/CLKIN)
