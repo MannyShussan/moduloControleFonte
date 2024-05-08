@@ -1,15 +1,19 @@
-#ifndef INIT_HEAD
-
+#ifndef PIC
 #include <xc.h>
+#include <pic16f677.h>
+#include "sys.h"
 #endif
 
-#ifndef PIC
-
-#include <pic16f677.h>
+#ifndef ADC
 #include "adc.h"
-#include "extInt.h"
-#include "iic.h"
+#endif
 
+#ifndef INT_EXT
+#include "extInt.h"
+#endif
+
+#ifndef IIC
+#include "iic.h"
 #endif
 
 #define _XTAL_FREQ 8000000

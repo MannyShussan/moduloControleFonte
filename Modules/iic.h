@@ -1,4 +1,4 @@
-#ifndef INIT_HEAD
+#ifndef PIC
 #include <xc.h>
-#include "sys.h"
+#include <pic16f677.h>
 #endif
